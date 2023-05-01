@@ -1,0 +1,9 @@
+html{
+    width: 100vw;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: var(--color-peach);
+}
