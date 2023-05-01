@@ -1,13 +1,14 @@
 <script setup>
-const links = ["home", "about", "teste"];
+import links from '../utils/links';
+
 </script>
 <template>
   <header class="nav-container">
     <span class="nav-logo"><strong>ROD</strong>zin</span>
     <font-awesome-icon class="nav-icon" icon="fa-solid fa-bars" />
     <ul class="nav-items">
-      <li class="nav-item" v-for="link in links" :key="link">
-        <a href="#home">{{ link }}</a>
+      <li class="nav-item" v-for="link in links" :key="link.path">
+        <a :href="link.id">{{ link.path }}</a>
       </li>
     </ul>
   </header>
