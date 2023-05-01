@@ -1,12 +1,14 @@
 <script setup>
-import perfil from '/public/perfil.png'
+import perfil from '/perfil.png'
+import About from './About.vue';
 </script>
 
 <template>
   <main class="main-container">
     <section class="main-section">
+      <h1 id="about">SOBRE MIM</h1>
       <img :src="perfil" alt="perfil" class="main-perfil">
-      <div id="teste">a</div>
+      <About/>
     </section>
   </main>
 </template>
@@ -16,7 +18,8 @@ import perfil from '/public/perfil.png'
 .main-container {
   margin-top: 5rem ;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-section {
@@ -24,10 +27,9 @@ import perfil from '/public/perfil.png'
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  border-radius: 2.5rem;
+
   background-color: var(--color-positive);
   width: 60%;
-  height: 800px;
 }
 
 .main-perfil{
@@ -37,7 +39,19 @@ import perfil from '/public/perfil.png'
   width: 15%;
 }
 
-#teste{
-  padding: 200rem;
+#about{
+  display: flex;
+  justify-content: start;
+  align-content: center;
+  margin: 4rem 0 2rem 0;
+  font-size: 3.6rem;
 }
+
+#about::before{
+  content: '';
+  padding: 1rem;
+  border-left: 1rem solid red ;
+}
+
+
 </style>

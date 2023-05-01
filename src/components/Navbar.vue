@@ -1,5 +1,6 @@
 <script setup>
 import links from '../utils/links';
+import cv from '/CV_rodrigoBatistaPereira.pdf'
 
 </script>
 <template>
@@ -10,6 +11,7 @@ import links from '../utils/links';
       <li class="nav-item" v-for="link in links" :key="link.path">
         <a :href="link.id">{{ link.path }}</a>
       </li>
+      <a :href="cv" class="nav-btn-cv">Baixar CV</a>
     </ul>
   </header>
 </template>
@@ -25,6 +27,7 @@ import links from '../utils/links';
 }
 
 .nav-logo {
+  font-size: 3.6rem;
   color: var(--color-positive);
 }
 
@@ -47,6 +50,7 @@ import links from '../utils/links';
 .nav-item a {
   color: var(--color-positive);
   text-decoration: none;
+  transition: all 0.2s linear;
 }
 
 .nav-item {
@@ -70,8 +74,21 @@ import links from '../utils/links';
   background-color: var(--color-positive);
 }
 
-.nav-item:hover::before {
+.nav-btn-cv{
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+  color: var(--color-negative);
+  background-color: var(--color-positive);
+  border-radius: 1.7rem;
+  text-transform: uppercase;
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-btn-cv:hover{
   background-color: var(--color-peach);
+  color: var(--color-positive);
 }
 
 @media (max-width: 600px) {
