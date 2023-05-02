@@ -8,8 +8,8 @@ const links = [
         path: "about",
     },
     {
-        id: "#teste",
-        path: "teste",
+        id: "#skills",
+        path: "skills",
     },
 ]
 
