@@ -1,5 +1,5 @@
 <script setup>
-import links from '../utils/links';
+import L from '../utils/links';
 import cv from '/CV_rodrigoBatistaPereira.pdf'
 
 </script>
@@ -8,7 +8,7 @@ import cv from '/CV_rodrigoBatistaPereira.pdf'
     <span class="nav-logo"><strong>ROD</strong>zin</span>
     <font-awesome-icon class="nav-icon" icon="fa-solid fa-bars" />
     <ul class="nav-items">
-      <li class="nav-item" v-for="link in links" :key="link.path">
+      <li class="nav-item" v-for="link in L.links" :key="link.path">
         <a :href="link.id">{{ link.path }}</a>
       </li>
       <a :href="cv" class="nav-btn-cv">Baixar CV</a>

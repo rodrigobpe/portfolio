@@ -4,7 +4,7 @@
 <template>
     <p class="about-paragraph">
         Olá, me chamo Rodrigo, tenho 20 anos e moro em Joinville (SC). Atualmente estou
-        cursando BSI (Bacharelado em Sistemas de Informação) no IFC - Araquari. Gosto muito
+        cursando Bacharelado em Sistemas de Informação (BSI) no IFC - Araquari. Gosto muito
         de atuar na área
     </p>
 </template>

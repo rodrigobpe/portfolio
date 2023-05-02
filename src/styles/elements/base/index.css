@@ -1,5 +1,7 @@
 html{
+    position: relative;
     width: 100vw;
+    min-height: 100vh;
     font-size: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
