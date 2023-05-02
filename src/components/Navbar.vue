@@ -50,7 +50,7 @@ import cv from '/CV_rodrigoBatistaPereira.pdf'
 .nav-item a {
   color: var(--color-positive);
   text-decoration: none;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
 }
 
 .nav-item {
