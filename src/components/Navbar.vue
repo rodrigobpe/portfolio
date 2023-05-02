@@ -23,7 +23,7 @@ import cv from '/CV_rodrigoBatistaPereira.pdf'
   background-color: var(--color-negative);
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .nav-logo {

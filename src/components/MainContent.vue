@@ -1,5 +1,5 @@
 <script setup>
-import perfil from '/perfil.png'
+import perfil from '/perfil.jpeg'
 import About from './About.vue';
 </script>
 
@@ -38,7 +38,8 @@ import About from './About.vue';
   margin: 4rem 0;
   border: 1rem inset var(--color-negative);
   border-radius: 50%;
-  width: 15%;
+  width: 20rem;
+  height: 20rem;
 }
 
 #about,#skills{
