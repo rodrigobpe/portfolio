@@ -18,7 +18,7 @@ import About from './About.vue';
 
 <style>
 .main-container {
-  margin-top: 5rem ;
+  margin:5rem 0 11rem 0 ;
   display: flex;
   flex-direction: column;
   align-items: center;
