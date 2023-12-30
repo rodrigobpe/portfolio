@@ -1,10 +1,9 @@
 <div class="card-container">
-    <img src="../../../assets/poke-angular.png" alt="">
-    <h1>Poke Angular</h1>
-    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque quibusdam, ipsa iste sunt tempora debitis
-        voluptate possimus perferendis, quasi magnam harum nulla, veniam hic architecto eos ullam incidunt id.</h4>
-
-    <div>
-        
+    <img src="{{listProjects.img}}" alt="{{listProjects.title}}">
+    <h1>{{listProjects.title}}</h1>
+    <h4>{{listProjects.description}}</h4>
+    <div class="card-actions">
+        <a href="{{listProjects.live_preview}}">Live preview</a>
+        <a class="github" href="{{listProjects.github}}">Visualizar no Github</a>
     </div>
 </div>
