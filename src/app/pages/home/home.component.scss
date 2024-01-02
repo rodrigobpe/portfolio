@@ -92,3 +92,14 @@
         }
     }
 }
+
+
+@media screen and (max-width:600px) {
+    .main-content {
+        #skills {
+            .skills-wrapper {
+                justify-content: center;
+            }
+        }
+    }
+}
