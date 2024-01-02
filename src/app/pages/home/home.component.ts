@@ -18,7 +18,7 @@ export class HomeComponent {
       title: "Poke Angular",
       github: "https://github.com/rodrigobpe/poke-angular",
       live_preview: "https://rodrigobpe.github.io/poke-angular/",
-      img: "../../../assets/poke-angular.png",
+      img: "assets/poke-angular.png",
       description: "O projeto foi desenvolvido com intúito de aprimorar meus conhecimentos em Angular. A ideia principal do projeto é prover ao usuário as 9 gerações de pokémons, informando nome e tipo do pokémon. Posteriormente irei realizar mais algumas features para o projeto.",
       tags: ['Angular', 'Poke Api']
     },
