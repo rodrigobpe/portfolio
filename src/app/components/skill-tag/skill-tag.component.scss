@@ -1,0 +1,40 @@
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+
+    &.angular{
+        background-color: #DD0031;
+    }
+    &.vue{
+        background-color: #42B883;
+        color: #2A3643;
+    }
+    &.nuxt{
+        background-color: #00DC82;
+    }
+    &.express{
+        background-color: white;
+        color: black;
+    }
+    &.postgres{
+        background-color: #336791;
+    }
+    &.mysql{
+        background-color: #00758F;
+        color: #F29111;
+    }
+    &.nest{
+        background-color: #E0234E;
+        color: black;
+    }
+    &.figma{
+        background-color: #A259FF;
+    }
+}
+

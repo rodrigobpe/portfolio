@@ -12,5 +12,11 @@
             <app-card-project *ngFor="let project of listProjects" [listProjects]="project"/>
         </div>
     </div>
+    <div id="skills">
+        <h1>Habilidades</h1>
+        <div class="skills-wrapper">
+            <app-skill-tag *ngFor="let skill of skills" [skill]="skill"/>
+        </div>
+    </div>
 
 </main>

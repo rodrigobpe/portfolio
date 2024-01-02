@@ -1,6 +1,9 @@
 <div class="card-container">
     <img src="{{listProjects.img}}" alt="{{listProjects.title}}">
     <h1>{{listProjects.title}}</h1>
+    <ul>
+        <li *ngFor="let tag of listProjects.tags">{{tag}}</li>
+    </ul>
     <h4>{{listProjects.description}}</h4>
     <div class="card-actions">
         <a href="{{listProjects.live_preview}}">Live preview</a>

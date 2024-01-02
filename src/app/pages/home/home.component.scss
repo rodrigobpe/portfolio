@@ -1,58 +1,69 @@
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
     justify-content: baseline;
     margin: 25px 10%;
     color: white;
 
-    h1{
+    h1 {
         font-size: 35px;
         margin: 50px 0;
     }
 
-    #about{
-        span{
-            background: -webkit-linear-gradient(60deg, red,yellow);
+    #about {
+        span {
+            background: linear-gradient(90deg, #985ED8, #1AAFCA);
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-    
-        h1{
+
+        h1 {
             font-size: 28px;
-            margin: 0 0 20px 0;      
+            margin: 0 0 20px 0;
         }
 
-        h3{
+        h3 {
             font-size: 14px;
             color: #717C8D;
             font-weight: 500;
         }
 
-        button{
+        button {
             margin: 30px 0 0 0;
             padding: 10px 15px;
-            color: black;
+            color: white;
             font-weight: bold;
-            background: linear-gradient(60deg,red,yellow);
+            background: linear-gradient(90deg, #985ED8, #1AAFCA);
             border-radius: 20px;
             border: none;
             cursor: pointer;
             transition: all 0.2s ease-in-out;
 
-            &:hover{
+            &:hover {
                 transform: scale(1.05);
             }
         }
     }
 
-    #projects{
-        .projects-wrapper{
+    #projects {
+        .projects-wrapper {
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             width: 100%;
-            gap: 30px;
+            gap: 80px;
+            margin: 0 0 30px 0;
+        }
+
+    }
+
+    #skills {
+        .skills-wrapper {
+            display: flex;
+            width: 100%;
+            gap: 15px;
+            flex-wrap: wrap;
             margin: 0 0 30px 0;
         }
 
@@ -61,24 +72,23 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1128px) {
-    .main-content{
+    .main-content {
         margin: auto 15%;
     }
 }
 
-@media screen and (min-width:1128px){
-    .main-content{
+@media screen and (min-width:1128px) {
+    .main-content {
         margin: 20px 16.6%;
-        
-        #about{
-            h1{
+
+        #about {
+            h1 {
                 font-size: 35px;
             }
 
-            h3{
+            h3 {
                 font-size: 18px;
             }
         }
     }
 }
-

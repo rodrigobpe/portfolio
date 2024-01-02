@@ -16,7 +16,22 @@
     h1 {
         text-align: justify;
         font-size: 28px;
-        margin: 20px 0;
+        margin: 20px 0 0 0;
+    }
+
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 15px 0;
+        gap: 10px;
+        li{
+            list-style: none;
+            padding: 5px 15px;
+            background-color: #717C8D;
+            border-radius: 20px;
+            font-size: 14px;
+        }
     }
 
     h4 {
@@ -34,12 +49,12 @@
 
         a{
             text-decoration: none;
-            color: black;
+            color: white;
             padding: 10px 15px;
             margin: 0 5px;
             border: none;
             border-radius: 20px;
-            background:linear-gradient(90deg,red,yellow);
+            background:linear-gradient(90deg,#985ED8,#1AAFCA);
             transition: all 0.2s ease-in-out;
 
             &:hover{

@@ -10,7 +10,7 @@ header {
         color: white;
 
         span {
-            color: red;
+            color: #1AAFCA;
         }
 
     }
@@ -31,7 +31,7 @@ header {
                 display: flex;
                 width: 0px;
                 height: 3px;
-                background:linear-gradient(60deg,red,yellow);
+                background:linear-gradient(90deg,#985ED8,#1AAFCA);
                 transition: all 0.3s ease-in-out;
             }
 

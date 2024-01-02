@@ -4,4 +4,5 @@ export default interface ListProjects{
     description:string;
     live_preview:string;
     github:string
+    tags:string[]
 }
