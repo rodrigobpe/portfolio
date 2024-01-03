@@ -19,10 +19,10 @@ export class HeaderComponent {
       name: "Projetos",
       link: "#projects"
     },
-    {
-      name: "Serviços",
-      link: "#services"
-    },
+    // {
+    //   name: "Serviços",
+    //   link: "#services"
+    // },
     {
       name: "Habilidades",
       link: "#skills"

@@ -69,3 +69,18 @@ $speed: 1s;
         right: 3%;
     }
 }
+
+@media screen and (max-width:500px){
+    .social-media{
+        justify-content: space-around;
+        a{
+            svg{
+                height: 30px;
+                width: 30px;
+            }
+        }
+        img{
+            width: 30px;
+        }
+    }
+}
